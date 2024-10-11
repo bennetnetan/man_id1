@@ -37,8 +37,8 @@ class _ManCardState extends State<ManCard> {
               manLevel++;
             });
           },
-          child: const Icon(Icons.add),
           backgroundColor: Colors.grey[800],
+          child: const Icon(Icons.add),
           ),
         body: Padding(
           padding: const EdgeInsets.fromLTRB(30, 40, 30, 0),
